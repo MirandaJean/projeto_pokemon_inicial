@@ -1,1 +1,1 @@
-# projeto_pokemon_inicial
+Projeto Pokémon Iniciais: Charmander, Bulbasaur e Squirtle Este projeto é uma homenagem aos três Pokémon iniciais da região de Kanto: Charmander, Bulbasaur e Squirtle. Criado com HTML, CSS e um pouco de JavaScript, ele apresenta as evoluções dessas criaturas icônicas, explorando suas transformações e características únicas.
