@@ -132,6 +132,7 @@ main .descricao {
 
 @media screen and (max-width: 700px) {
     body {
+        overflow-y: unset;
         background-image: url(../imagens/dia_3d_effect.png);
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -140,6 +141,7 @@ main .descricao {
     }
 
     body.modo-escuro {
+        overflow-y: unset;
         background-image: url(../imagens/noite_3d_effect.png);
         background-attachment: fixed;
         background-repeat: no-repeat;
