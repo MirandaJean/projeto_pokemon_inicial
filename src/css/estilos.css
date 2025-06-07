@@ -21,7 +21,7 @@ header {
     padding: 25px;
 }
 
-header *> {
+header >* {
     position: fixed;
     top: 0;
 }
