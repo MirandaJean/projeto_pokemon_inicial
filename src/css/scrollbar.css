@@ -1,3 +1,9 @@
+ html {
+      scroll-behavior: smooth;
+  }
+
+
+
 /* ===== Scrollbar CSS ===== */
 
 *::-webkit-scrollbar {
