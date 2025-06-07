@@ -17,7 +17,7 @@ body.modo-escuro {
 
   html {
       scroll-behavior: smooth;
-      transition: 1s;
+      transition: 5s;
   }
 
 header {
