@@ -21,11 +21,6 @@ header {
     padding: 25px;
 }
 
-header >* {
-    position: fixed;
-    top: 0;
-}
-
 header .logo,
 header .imagem-botao {
     width: 30px;
