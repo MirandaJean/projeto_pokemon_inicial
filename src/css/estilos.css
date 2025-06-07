@@ -17,11 +17,8 @@ body.modo-escuro {
 
   html {
       scroll-behavior: smooth;
+      transition: 1s;
   }
-
-#id {
-    transition: 1s;
-}
 
 header {
     position: sticky;
