@@ -47,6 +47,10 @@ main .cartao-pokemon:hover {
     cursor: pointer;
 }
 
+header #id {
+  transition: 1;
+}
+
 main {
     padding: 25px;
 }
