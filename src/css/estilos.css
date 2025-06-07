@@ -43,6 +43,10 @@ main .cartao-pokemon:hover {
     cursor: pointer;
 }
 
+id {
+    scroll-behavior: smooth;
+}
+
 main {
     padding: 25px;
 }
