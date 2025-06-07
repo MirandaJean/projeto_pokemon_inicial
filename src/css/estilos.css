@@ -26,6 +26,8 @@ header .logo,
 header .imagem-botao {
     width: 30px;
     transition: 0.2s ease-in-out;
+    position: fixed;
+    top: 0;
 }
 
 header #botao-alterar-tema {
