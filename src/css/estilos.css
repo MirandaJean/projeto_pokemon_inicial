@@ -19,6 +19,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 25px;
+    position: fixed;
+    top: 0;
 }
 
 header .logo,
