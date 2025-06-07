@@ -16,9 +16,10 @@ body.modo-escuro {
 }
 
 header {
-    position: fixed;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
     padding: 25px;
    
 }
