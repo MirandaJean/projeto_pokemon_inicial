@@ -19,6 +19,10 @@ body.modo-escuro {
       scroll-behavior: smooth;
   }
 
+#id {
+    transition: 1s;
+}
+
 header {
     position: sticky;
     top:0;
