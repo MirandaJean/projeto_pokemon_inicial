@@ -47,6 +47,10 @@ id {
     scroll-behavior: smooth;
 }
 
+#id {
+    scroll-behavior: smooth;
+}
+
 main {
     padding: 25px;
 }
