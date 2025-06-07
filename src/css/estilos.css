@@ -21,13 +21,15 @@ header {
     padding: 25px;
 }
 
+header *> {
+    position: fixed;
+    top: 0;
+}
+
 header .logo,
 header .imagem-botao {
     width: 30px;
     transition: 0.2s ease-in-out;
-    position: fixed;
-    top: 0;
-    padding: 25px;
 }
 
 header #botao-alterar-tema {
