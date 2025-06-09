@@ -139,8 +139,8 @@ main .descricao {
 
 @media screen and (max-width: 700px) {
     body {
-        background-image: url(../imagens/dia_3d_effect.png);
-        background-position: sticky;
+        background-image: sticky url(../imagens/dia_3d_effect.png);
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
 
