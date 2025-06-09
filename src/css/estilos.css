@@ -142,10 +142,8 @@ main .descricao {
         background-image: url(../imagens/dia_3d_effect.png);
         background-attachment: sticky;
         background-repeat: no-repeat;
-        background-size: 80cap;
-        top: 0;
-        left: 0;
-/*         background-position: top; */
+        background-size: cover;
+        background-position: top;
     }
 
     body.modo-escuro {
@@ -153,9 +151,7 @@ main .descricao {
         background-attachment: sticky;
         background-repeat: no-repeat;
         background-size: 80cap;
-        top: 0;
-        left: 0;
-/*         background-position: top left; */
+        background-position: top left;
     }
 
     .cartao-pokemon {
