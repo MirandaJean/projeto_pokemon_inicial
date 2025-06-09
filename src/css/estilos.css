@@ -140,15 +140,15 @@ main .descricao {
 @media screen and (max-width: 700px) {
     body {
         background-image: url(../imagens/dia_3d_effect.png);
-        background-attachment: sticky;
+        background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 80cap;
         background-position: top;
     }
 
     body.modo-escuro {
         background-image: url(../imagens/noite_3d_effect.png);
-        background-attachment: sticky;
+        background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: 80cap;
         background-position: top left;
