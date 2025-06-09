@@ -140,10 +140,16 @@ main .descricao {
 @media screen and (max-width: 700px) {
     body {
         background-image: url(../imagens/dia_3d_effect.png);
-        background-attachment: sticky;
-        background-repeat: no-repeat;
-        background-size: 60cap;
+        position: sticky;
+        background-size:80cap;
         background-position: top;
+        background-repeat: no-repeat;
+
+        
+        /*         background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 80cap;
+        background-position: top; */
     }
 
     body.modo-escuro {
