@@ -143,7 +143,9 @@ main .descricao {
         background-attachment: sticky;
         background-repeat: no-repeat;
         background-size: 80cap;
-        background-position: top;
+        top: 0;
+        left: 0;
+/*         background-position: top; */
     }
 
     body.modo-escuro {
@@ -151,7 +153,9 @@ main .descricao {
         background-attachment: sticky;
         background-repeat: no-repeat;
         background-size: 80cap;
-        background-position: top left;
+        top: 0;
+        left: 0;
+/*         background-position: top left; */
     }
 
     .cartao-pokemon {
