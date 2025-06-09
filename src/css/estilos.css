@@ -141,7 +141,7 @@ main .descricao {
     body {
         background-image: url(../imagens/dia_3d_effect.png);
         background-position: sticky;
-        background-size: 70%;
+        background-size: 80cap;
         background-position: top;
         background-repeat: no-repeat;
 
