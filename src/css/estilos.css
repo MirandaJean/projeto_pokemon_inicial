@@ -142,7 +142,7 @@ main .descricao {
         background-image: url(../imagens/dia_3d_effect.png);
         background-attachment: scroll;
         background-repeat: no-repeat;
-        background-size: 120%;
+        background-size: 200%;
         background-position: top;
     }
 
@@ -150,7 +150,7 @@ main .descricao {
         background-image: url(../imagens/noite_3d_effect.png);
         background-attachment: scroll;
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 220%;
         background-position: top left;
     }
 
