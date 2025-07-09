@@ -142,13 +142,13 @@ main .descricao {
         background-image: url(../imagens/dia_3d_effect.png);
         background-attachment: scroll;
         background-repeat: no-repeat;
-        background-size: 80cap;
+        background-size: cover;
         background-position: top;
     }
 
     body.modo-escuro {
         background-image: url(../imagens/noite_3d_effect.png);
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-repeat: no-repeat;
         background-size: 80cap;
         background-position: top left;
