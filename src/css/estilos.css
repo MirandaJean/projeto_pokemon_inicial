@@ -144,7 +144,7 @@ main .descricao {
         background-attachment: scroll;
         background-repeat: no-repeat;
         background-size: 0cap;
-        background-position: 0% 70%;
+        background-position: 50%;
     }
 
     body.modo-escuro {
