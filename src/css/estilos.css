@@ -144,6 +144,7 @@ main .descricao {
         background-attachment: scroll;
         background-repeat: no-repeat;
         background-size: 0cap;
+        zoom:-20%;
         background-position: top;
     }
 
