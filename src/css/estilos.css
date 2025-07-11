@@ -143,8 +143,8 @@ main .descricao {
         background-image: url(../imagens/dia_3d_effect.png);
         background-attachment: scroll;
         background-repeat: no-repeat;
-        background-size: 0cap;
-        zoom:-80%;
+        width: 50%;
+        height: 100%;
         background-position: top;
     }
 
