@@ -207,7 +207,7 @@ main .descricao {
     body {
     overflow-x: hidden;
     background-attachment: scroll;
-    background-size: 100%;
+    background-size: contain;
     background-position: center top;
     background-repeat: no-repeat;
         
