@@ -199,7 +199,7 @@ main .descricao {
 @media screen and (max-width: 700px) {
     body {
         background-image: url(../imagens/dia_3d_effect.png);
-        background-attachment: scroll;
+        background-attachment: none;
         background-repeat: no-repeat;
         background-size: 80cap;
         background-position: top, left;
