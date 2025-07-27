@@ -204,14 +204,21 @@ main .descricao {
         background-size: 80cap;
         background-position: top, left;
     } */
-    body {
-    overflow-x: hidden;
-    background-attachment: scroll;
-    background-size: 150%;
-    background-position: center top;
-    background-repeat: no-repeat;
 
-  }
+    html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+        background-image: url(../imagens/dia_3d_effect.png);
+  background-size: cover; /* cobre toda a tela */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll; /* NÃO use fixed em mobile */
+}
     
     body.modo-escuro {
         background-image: url(../imagens/noite_3d_effect.png);
