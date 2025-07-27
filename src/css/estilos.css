@@ -210,9 +210,22 @@ main .descricao {
     background-size: contain;
     background-position: center top;
     background-repeat: no-repeat;
-        
   }
 
+    body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+background-image: url(../imagens/dia_3d_effect.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  z-index: -1;
+    }
+    
     body.modo-escuro {
         background-image: url(../imagens/noite_3d_effect.png);
         background-attachment: fixed;
