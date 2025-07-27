@@ -7,7 +7,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    background-attachment: sticky;
+    background-attachment: fixed;
     color: #333333;
 }
 
@@ -143,10 +143,6 @@ main .descricao {
     padding-right: 10px;
 }
 
- {
-    
-}
-
 .sites {
     display: flex;
     align-items: center;
@@ -205,8 +201,9 @@ main .descricao {
         background-image: url(../imagens/dia_3d_effect.png);
         background-attachment: sticky;
         background-repeat: no-repeat;
-        background-size: 80cap;
-        background-position: top;
+/*         background-size: 80cap; */
+        background-size: cover;
+        background-position: top, left;
     }
 
     body.modo-escuro {
@@ -214,7 +211,7 @@ main .descricao {
         background-attachment: sticky;
         background-repeat: no-repeat;
         background-size: inherit initial unset;
-        background-position: top left;
+        background-position: top right;
     }
 
     .cartao-pokemon {
