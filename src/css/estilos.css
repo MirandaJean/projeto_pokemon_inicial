@@ -197,13 +197,24 @@ main .descricao {
 
 
 @media screen and (max-width: 700px) {
-    body {
+/*     body {
         background-image: url(../imagens/dia_3d_effect.png);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: 80cap;
         background-position: top, left;
-    }
+    } */
+
+    html, body {
+  height: 100%;
+  overflow-x: hidden; /* previne scroll lateral */
+}
+    body {
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
 
     body.modo-escuro {
         background-image: url(../imagens/noite_3d_effect.png);
