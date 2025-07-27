@@ -218,6 +218,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll; /* NÃO use fixed em mobile */
+    overflow-x: hidden;
 }
     
     body.modo-escuro {
