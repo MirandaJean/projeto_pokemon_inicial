@@ -204,16 +204,13 @@ main .descricao {
         background-size: 80cap;
         background-position: top, left;
     } */
-
-    html, body {
-  height: 100%;
-  overflow-x: hidden; /* previne scroll lateral */
-}
     body {
+    overflow-x: hidden;
     background-attachment: scroll;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
+        
   }
 
     body.modo-escuro {
