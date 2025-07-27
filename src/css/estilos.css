@@ -205,7 +205,7 @@ main .descricao {
         background-position: top, left;
     } */
     body {
-    overflow-x: hidden;
+/*     overflow-x: hidden; */
     background-attachment: scroll;
     background-size: 100% auto;
     background-position: center top;
