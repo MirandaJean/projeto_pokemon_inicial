@@ -6,7 +6,7 @@ body {
     transition: 2.5s;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left;
     background-attachment: sticky;
     color: #333333;
 }
