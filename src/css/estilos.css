@@ -3,12 +3,12 @@ body {
     max-width: 1280px;
     margin: 0 auto 0 auto;
     background-image: url(../imagens/dia_3d_effect.png);
-    transition: 2.5s;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
     background-attachment: fixed;
     color: #333333;
+    transition: 2.5s;
 }
 
 body.modo-escuro {
