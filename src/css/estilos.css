@@ -1,248 +1,204 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    max-width: 1280px;
-    margin: 0 auto 0 auto;
-    background-image: url(../imagens/dia_3d_effect.png);
-    transition: 2.5s;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: #333333;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
 
-body.modo-escuro {
-    background-image: url(..//imagens/noite_3d_effect.png);
-    color: #f5f5f5;
-    transition: 2.5s;
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem Pokémon</title>
 
-}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
 
-header {
-    position: sticky;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    padding: 25px;
-}
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+</head>
 
-header .logo,
-header .imagem-botao {
-    width: 30px;
-    transition: 0.2s ease-in-out;
-}
+<body>
+    <header>
+        <a href="/">
+            <img src="./src/imagens/pokeball.png" alt="pokebola" class="logo">
+        </a>
+        <button id="botao-alterar-tema">
+            <img src="./src/imagens/sun.png" alt="imagem do sol" class="imagem-botao">
+        </button>
+    </header>
+    <main>
+        <ul class="listagem-pokemon">
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Bulbassar</span>
+                    <span>#001</span>
+                </div>
+                <img src="./src/imagens/bulbasaur.gif" alt="Bulbasaur" class="gif">
 
-header #botao-alterar-tema {
-    background: none;
-    border: none;
-    cursor: none;
-}
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">há uma semente de planta em suas costas desde o dia que este pokÉmon nasce.
+                    Asemente cresce lentamente.</p>
 
-main .cartao-pokemon:hover {
-    transform: scale(1.05);
-    cursor: pointer;
-}
+            </li>
 
-header .logo:hover,
-header .imagem-botao:hover {
-    transform: scale(1.5);
-    cursor: pointer;
-    transition: 0.5s;
-}
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Ivysaur</span>
+                    <span>#002</span>
+                </div>
+                <img src="./src/imagens/ivysaur.gif" alt="Ivysaur" class="gif">
 
-main {
-    padding: 25px;
-}
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">Quando o bulbo em suas costas crsce, parece perde a capacidade de ficar de pé em
+                    suas pastas traseiras.</p>
 
-.listagem-pokemon {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-}
+            </li>
 
-.cartao-pokemon {
-    background-color: #d8e3ec85;
-    width: 200px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    border-radius: 15px;
-    transition: 0.2s ease-in-out;
-}
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Venusaur</span>
+                    <span>#003</span>
+                </div>
+                <img src="./src/imagens/venusaur.gif" alt="Venusaur" class="gif">
 
-main .cartao-pokemon:hover {
-    /* background-color: #96d9d6; */
-    background-color: #7beee8;
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">Sua planta floresce quando esta absorvendo energia solar. Ele permanece em
+                    movimento para buscar a liz solar.</p>
 
-}
+            </li>
 
-.modo-escuro .cartao-pokemon:hover {
-    background-color: #09add6;
-}
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmander</span>
+                    <span>#004</span>
+                </div>
+                <img src="./src/imagens/charmander.gif" alt="Charmander" class="gif">
 
-.modo-escuro .cartao-pokemon {
-    background-color: #a8a8a850;
-}
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+                <p class="descricao">tem preferencia por coisas quentes. Quando chove, diz-se que o vapr jorra da ponta
+                    de sua cauda.</p>
 
-main .cartao-pokemon .informacoes {
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid #333333;
-    border-radius: 10px;
-}
+            </li>
 
-main .cartao-pokemon .informacoes span {
-    padding: 5px;
-    text-transform: uppercase;
-    font-size: 17px;
-}
+            </li>
 
-main .cartao-pokemon .gif {
-    width: 90px;
-    height: 90px;
-}
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmileon</span>
+                    <span>#005</span>
+                </div>
+                <img src="./src/imagens/charmeleon.gif" alt="Charmeleon" class="gif">
 
-main .cartao-pokemon .tipos {
-    display: flex;
-    gap: 15px;
-}
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+                <p class="descricao">Tem uma natureza bárbara. Na batalha, ele chicoteia com sua calda ardente e corta
+                    com garras afiadas.</p>
 
-main .cartao-pokemon .tipo {
-    padding: 8px;
-    border-radius: 10px;
-}
+            </li>
 
-.grama {
-    background-color: #7ac74c;
-}
+            </li>
 
-.veneno {
-    background-color: #df67ddfb;
-}
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charizard</span>
+                    <span>#006</span>
+                </div>
+                <img src="./src/imagens/charizard.gif" alt="Charizard" class="gif">
 
-.fogo {
-    background-color: #ee8130
-}
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+                <p class="descricao">Ele cospe fogo que é quente o suficiente para derreter pedregulhos. Pode causar
+                    incêndios florestais soprando chamas.</p>
 
-.agua {
-    background-color: #6390f0;
-}
+            </li>
 
-.inseto {
-    background-color: #51c007
-}
+            </li>
 
-main .descricao {
-    max-height: 80px;
-    overflow-y: scroll;
-    font-size: 14px;
-    padding-right: 10px;
-}
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Squirtle</span>
+                    <span>#007</span>
+                </div>
+                <img src="./src/imagens/squirtle.gif" alt="Squirtle" class="gif">
 
- {
-    
-}
+                <ul class="tipos">
+                    <li class="tipo agua">Agua</li>
+                </ul>
+                <p class="descricao">Quando ele retrai seu longo pescoço em sua concha, ele esguicha água com força
+                    vigorosa.</p>
 
-.sites {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin: 4% 0 4% 8%;
-    width: 33%;
-    background-color: #d8e3ec4d;
-    border-radius: 15px;
-    border: solid #f10808;
-    transition: 0.5s;
-}
+            </li>
 
-.pokebola_aberta {
-    width: 30%;
-    opacity: 75%;
-}
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Wartortle</span>
+                    <span>#008</span>
+                </div>
+                <img src="./src/imagens/wartortle.gif" alt="Wartortle" class="gif">
 
-.meus_projetos {
-    text-decoration: none;
-    text-transform: uppercase;
-    background: -webkit-linear-gradient(left, #9adbdf 18%, #d4feff 57%, #FFFFFF 46%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: relative;
-    right: 12%;
-    font-size: 14px;
-    padding: 5% 5% 5% 0;
-    transition: 2.5s;
+                <ul class="tipos">
+                    <li class="tipo agua">Agua</li>
+                </ul>
+                <p class="descricao">É reconhecido como um símbolo de longevidade. Se sua concha tem algas, esse
+                    Wartortle é muito antigo.
 
-}
+                </p>
 
-.sites:hover {
-    transform: scale(1.05);
-    cursor: pointer;
-    transition: 0.2s ease-in-out;
-}
+            </li>
 
-.modo-escuro .sites {
-    background-color: #a8a8a850;
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Blastoise</span>
+                    <span>#009</span>
+                </div>
+                <img src="./src/imagens/blastoise.gif" alt="Blastoise" class="gif">
 
-}
+                <ul class="tipos">
+                    <li class="tipo agua">Agua</li>
+                </ul>
+                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada,
+                    ele se retirará dentro de sua concha.</p>
 
-.modo-escuro .meus_projetos {
-    background: -webkit-linear-gradient(#FFFFFF );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: relative;
-    right: 3%;
-    padding: 5% 5% 5% 0;
-    transition: 2.5s;
-}
+            </li>
 
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Caterpie</span>
+                    <span>#010</span>
+                </div>
+                <img src="./src/imagens/caterpie.gif" alt="Caterpie" class="gif">
 
-@media screen and (max-width: 700px) {
-    body {
-        background-image: url(../imagens/dia_3d_effect.png);
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: 80cap;
-        background-position: top;
-    }
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                </ul>
+                <p class="descricao">Para proteção, ele libera um fedor horrível da antena em sua cabeça para afastar os
+                    inimigos.</p>
 
-    body.modo-escuro {
-        background-image: url(../imagens/noite_3d_effect.png);
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: inherit initial unset;
-        background-position: top left;
-    }
+            </li>
 
-    .cartao-pokemon {
-        width: 45%;
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-    }
+        </ul>
+    </main>
 
-    main .cartao-pokemon .informacoes span {
-        padding: 5px;
-        text-transform: uppercase;
-        font-size: 0.7rem;
-    }
+    <footer>
+        <div class="sites" >
+        <img src="./src/imagens/Pokeball-Download-Transparent-PNG-Image.png" alt="imagem pokebola aberta" class="pokebola_aberta">
+        <a href="./src/projetos.html" class="meus_projetos"><strong>Conheça meus outros projetos</strong></a>
+        </div>
+    </footer>
 
-    main .cartao-pokemon .gif {
-        width: 50%;
-        height: 50%;
-    }
+    <script src="./src/JS/index.js"></script>
+</body>
 
-    main .cartao-pokemon .tipos {
-        display: flex;
-        gap: 12%;
-        justify-content: center;
-        font-size: 0.7rem;
-        width: 42%;
-
-    }
-
-}
+</html>
