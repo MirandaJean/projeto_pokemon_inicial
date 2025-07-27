@@ -218,11 +218,9 @@ main .descricao {
   content: "";
   position: fixed;
   top: 0;
-  bottom: 0;
   left: 0;
-  right: 0;
   width: 100vw;
-  height: 100vh;
+  height: 300vh;
 background-image: url(../imagens/dia_3d_effect.png);
   background-size: contain;
   background-repeat: no-repeat;
