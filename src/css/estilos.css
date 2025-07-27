@@ -201,8 +201,7 @@ main .descricao {
         background-image: url(../imagens/dia_3d_effect.png);
         background-attachment: sticky;
         background-repeat: no-repeat;
-/*         background-size: 80cap; */
-        background-size: cover;
+        background-size: 80cap;
         background-position: top, left;
     }
 
@@ -211,7 +210,7 @@ main .descricao {
         background-attachment: sticky;
         background-repeat: no-repeat;
         background-size: inherit initial unset;
-        background-position: top right;
+        background-position: top left;
     }
 
     .cartao-pokemon {
