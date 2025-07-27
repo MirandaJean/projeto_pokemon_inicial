@@ -213,12 +213,12 @@ main .descricao {
 }
 
 body {
+        overflow-x: hidden;
         background-image: url(../imagens/dia_3d_effect.png);
   background-size: cover; /* cobre toda a tela */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll; /* NÃO use fixed em mobile */
-    overflow-x: hidden;
 }
     
     body.modo-escuro {
