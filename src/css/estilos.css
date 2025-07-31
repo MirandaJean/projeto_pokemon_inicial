@@ -143,17 +143,23 @@ main .descricao {
     padding-right: 10px;
 }
 
+.link-sites {
+    text-decoration: none;
+    display: block;
+    width: 33%;
+}
+
 .sites {
     display: flex;
     align-items: center;
     text-align: center;
-    margin: 4% 0 4% 8%;
-    width: 33%;
-    background-color: #d8e3ec4d;
+    margin: 4% 0 4% 20%;
+    width: 100%;
+    background-color: #d8e3ec85;
     border-radius: 15px;
     border: solid #f10808;
     transition: 0.5s;
-}
+    }
 
 .pokebola_aberta {
     width: 30%;
@@ -170,8 +176,7 @@ main .descricao {
     right: 12%;
     font-size: 14px;
     padding: 5% 5% 5% 0;
-    transition: 2.5s;
-
+    transition: 0.5s;
 }
 
 .sites:hover {
@@ -186,13 +191,13 @@ main .descricao {
 }
 
 .modo-escuro .meus_projetos {
-    background: -webkit-linear-gradient(#FFFFFF );
+    background: -webkit-linear-gradient(#FFFFFF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
     right: 3%;
     padding: 5% 5% 5% 0;
-    transition: 2.5s;
+    transition: 0.5s;
 }
 
 
