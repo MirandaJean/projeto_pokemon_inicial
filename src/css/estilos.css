@@ -231,7 +231,7 @@ body {
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: 80cap;
-        background-position: top right;
+        background-position: left 50%;
     }
 
     .cartao-pokemon {
