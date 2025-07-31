@@ -214,10 +214,11 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+/*   overflow-x: hidden; */
 }
 
 body {
-  overflow-y: hidden;
+  overflow-y: scroll;
   background-image: url(../imagens/dia_3d_effect.png);
   background-size: cover;
   background-position: center;
