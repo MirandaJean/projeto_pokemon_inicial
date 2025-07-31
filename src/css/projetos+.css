@@ -1,3 +1,74 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto 0 auto;
+    background-image: url(../imagens/dia_3d_effect.png);
+    transition: 2.5s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333333;
+}
+
+body.modo-escuro {
+    background-image: url(..//imagens/noite_3d_effect.png);
+    color: #f5f5f5;
+    transition: 2.5s;
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+header .imagem-botao {
+    width: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+header .logo {
+    width: 5%;
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes anima {
+    0% {
+        transform: scale(1)
+    }
+
+    100% {
+        transform: scale(1.20)
+    }
+}
+
+header #botao-alterar-tema {
+    background: none;
+    border: none;
+    cursor: none;
+}
+
+
+
+header .imagem-botao:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+main {
+    padding: 25px;
+}
+
 .projetos {
     padding: 5%;
     margin: 0 25%;
@@ -11,7 +82,7 @@
     position: absolute;
     z-index: -1;
     inset: 0;
-    opacity: .5;
+    opacity: 0.8;
 
         background-image: url(../imagens/FundoLiP+Pokemon.jpg);
     background-repeat: no-repeat;
