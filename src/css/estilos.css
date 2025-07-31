@@ -210,20 +210,20 @@ main .descricao {
         background-position: top, left;
     } */
 
-    html, body {
+html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 body {
-        overflow-x: hidden;
-        background-image: url(../imagens/dia_3d_effect.png);
-  background-size: cover; /* cobre toda a tela */
+  overflow-y: hidden;
+  background-image: url(../imagens/dia_3d_effect.png);
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll; /* NÃO use fixed em mobile */
+  background-attachment: scroll; 
 }
     
     body.modo-escuro {
