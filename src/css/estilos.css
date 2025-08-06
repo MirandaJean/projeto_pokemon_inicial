@@ -232,7 +232,7 @@ main .descricao {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
+  background-attachment: scroll; 
 }
 
 body {
@@ -276,3 +276,4 @@ body {
     }
 
 }
+
