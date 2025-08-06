@@ -210,20 +210,33 @@ main .descricao {
         background-position: top, left;
     } */
 
-html, body {
+/* html, body {
   margin: 0;
   padding: 0;
   height: 100%;
   overflow-x: hidden;
-}
+} */
 
-body {
+/* body {
   overflow-x: hidden;
   background-image: url(../imagens/dia_3d_effect.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll; 
+} */
+
+    body {
+  overflow-x: unset;
+  background-image: url(../imagens/dia_3d_effect.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
+body {
+    height: 100%;
 }
     
     body.modo-escuro {
