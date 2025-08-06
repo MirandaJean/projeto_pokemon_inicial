@@ -210,44 +210,30 @@ main .descricao {
         background-position: top, left;
     } */
 
-/* html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  overflow-x: hidden;
-} */
-
-/* body {
-  overflow-x: hidden;
-  background-image: url(../imagens/dia_3d_effect.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll; 
-} */
-
-    body {
-  overflow-x: unset;
-  background-image: url(../imagens/dia_3d_effect.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll; 
+   html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-x: hidden;
 }
 
-body {
-    height: 100%;
-}
-    
-    body.modo-escuro {
-        background-image: url(../imagens/noite_3d_effect.png);
-        background-attachment: fixed;
+   body {
+        background-image: url(../imagens/dia_3d_effect.png);
+        background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
-        background-size: 80cap;
-        background-position: left 50%;
+        background-attachment: scroll; 
+} 
+    
+   body.modo-escuro {
+        background-image: url(../imagens/dia_3d_effect.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll; 
+        background-position: left;
     }
 
-    .cartao-pokemon {
+   .cartao-pokemon {
         width: 45%;
         padding: 15px;
         display: flex;
@@ -276,4 +262,5 @@ body {
     }
 
 }
+
 
