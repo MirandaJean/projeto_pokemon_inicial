@@ -122,3 +122,34 @@ ul {
 .link_redes_logo {
     width: 50%;
 }
+
+    @media screen and (max-width: 700px) {
+
+        header .imagem-botao {
+    width: 50px;
+        }
+
+        header .logo {
+    width:12%;
+    animation-name: anima;
+    animation-duration: 0.5s;
+        }
+
+        .projetos {
+    padding: 5%;
+    margin: 1%;
+    flex-wrap: nowrap;
+
+}
+ul {
+    gap: 3rem;
+        padding-left: 5%;
+
+}
+
+.meus__projetos {
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+
+}
