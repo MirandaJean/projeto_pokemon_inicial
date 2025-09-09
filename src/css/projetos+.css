@@ -78,13 +78,13 @@ main {
 }
 
 .projetos::after {
-    content:'';
+    content: '';
     position: absolute;
     z-index: -1;
     inset: 0;
     opacity: 0.8;
 
-        background-image: url(../imagens/FundoLiP+Pokemon.jpg);
+    background-image: url(../imagens/FundoLiP+Pokemon.jpg);
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
@@ -105,4 +105,20 @@ ul {
 .meus__projetos {
     color: blue;
     font-weight: 300;
+}
+
+.link_redes {
+    display: flex;
+    margin-top: 8%;
+}
+
+.link_redes_ancora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0% 15%;
+}
+
+.link_redes_logo {
+    width: 50%;
 }
