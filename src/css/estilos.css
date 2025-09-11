@@ -252,8 +252,10 @@ main .descricao {
         font-size: 0.7rem;
         width: 42%;
     }
+
 .link-sites {
     width: 100%;
+    padding-right: 3%;
 }
 
 .sites {
@@ -263,9 +265,19 @@ main .descricao {
 
     .meus_projetos {
     position: relative;
-    right: 10%;
+    right: 13%;
     font-size: 13px;
     padding: 0%;
+    transition: 0.5s;
+    }
+    
+    .modo-escuro .meus_projetos {
+    background: -webkit-linear-gradient(#FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    right: 4%;
+    padding: 0;
     transition: 0.5s;
     }
 
