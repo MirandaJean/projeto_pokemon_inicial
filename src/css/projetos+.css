@@ -125,12 +125,24 @@ ul {
 
     @media screen and (max-width: 700px) {
 
+       body {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+} 
+    
+   body.modo-escuro {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+
         header .imagem-botao {
-    width: 50px;
+    width: 40px;
         }
 
         header .logo {
-    width:12%;
+            width: 35px;
     animation-name: anima;
     animation-duration: 0.5s;
         }
@@ -138,9 +150,10 @@ ul {
         .projetos {
     padding: 5%;
     margin: 1%;
+    margin-top: 10%;
     flex-wrap: nowrap;
-
 }
+
 ul {
     gap: 3rem;
         padding-left: 5%;

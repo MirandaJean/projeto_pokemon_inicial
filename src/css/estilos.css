@@ -251,8 +251,28 @@ main .descricao {
         justify-content: center;
         font-size: 0.7rem;
         width: 42%;
-
     }
+.link-sites {
+    width: 100%;
+}
+
+.sites {
+    margin: 4% 2%;
+    width: 100%;
+    }
+
+    .meus_projetos {
+    position: relative;
+    right: 10%;
+    font-size: 13px;
+    padding: 0%;
+    transition: 0.5s;
+    }
+
+.pokebola_aberta {
+    width: 30%;
+    opacity: 75%;
+}
 
 }
 
